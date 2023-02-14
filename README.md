@@ -6,7 +6,7 @@ A repository that showcases a portfolio of Data Science and Machine Learning pro
 
 ## Contents
 - ### Machine Learning
-  * Infant Cry Classifier: Deep learning with SVM and MLP for audio classification of babies crying, using the "donateacry-corpus". Samples are classified into:
+  * [Infant Cry Classifier](https://github.com/anaritagomes/MachineLearningPortfolio/blob/main/infant_cry_classifier/infant_cry_complete.ipynb) : Deep learning with Support Vector Machine and Multi Layer Perceptron for audio classification of babies crying, using the "donateacry-corpus". Samples are classified into:
     * hu - hungry
     * bu - needs burping
     * bp - belly pain
