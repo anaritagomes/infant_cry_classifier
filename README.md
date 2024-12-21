@@ -1,14 +1,27 @@
-# Data Science and Machine Learning Portfolio
-A repository that showcases a portfolio of Data Science and Machine Learning projects I have undertaken for academic, self-improvement, and recreational purposes.
-## Instructions for Running Python Notebooks Locally
-- Install dependencies using requirements.txt.
-- Run notebooks as usual by using a jupyter notebook server, Vscode etc.
+# Baby Cry Classifier
 
-## Contents
-- ### Machine Learning
-  * [Infant Cry Classifier](https://github.com/anaritagomes/MachineLearningPortfolio/blob/main/infant_cry_classifier/infant_cry_complete.ipynb) : Deep learning with Support Vector Machine and Multi Layer Perceptron for audio classification of babies crying, using the "donateacry-corpus". Samples are classified into:
-    * hu - hungry
-    * bu - needs burping
-    * bp - belly pain
-    * dc - discomfort
-  
+This repository contains the source code and dataset for a deep learning model combining **Support Vector Machine (SVM)** and **Multi-Layer Perceptron (MLP)** architectures to classify baby cries using audio data from the *"Donate a Cry Corpus"* dataset.
+
+## Cry Classifications
+
+The model classifies baby cries into the following categories:
+
+- **hu**: Hungry  
+- **bu**: Needs burping  
+- **bp**: Belly pain  
+- **dc**: Discomfort  
+
+## Features Used
+
+The **CryMLClassifier** model leverages 193 features extracted from the audio data of baby cries. These features include:
+
+1. **40 MFCCs**: Mel-frequency cepstral coefficients  
+2. **12 chroma features**  
+3. **128 mel-spectrogram features**  
+4. **7 spectral contrast features**  
+5. **6 tonnetz features**  
+
+These features are extracted from the audio samples and serve as inputs to the machine learning algorithms for classification.
+
+---
+Explore the repository to learn more about the model and dataset implementation!
