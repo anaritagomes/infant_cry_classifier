@@ -13,7 +13,7 @@ The model classifies baby cries into the following categories:
 
 ## Features Used
 
-The **CryMLClassifier** model leverages 193 features extracted from the audio data of baby cries. These features include:
+The **Baby Cry Classifier** model leverages 193 features extracted from the audio data of baby cries. These features include:
 
 1. **40 MFCCs**: Mel-frequency cepstral coefficients  
 2. **12 chroma features**  
